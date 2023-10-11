@@ -1,0 +1,97 @@
+﻿.custom-textbox {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+    .custom-textbox:hover {
+        border-color: #007bff;
+    }
+
+.btnSubmit {
+    background-color: #2e4ead;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+    /* Style for a button on hover */
+    .btnSubmit:hover {
+        background-color: #0056b3;
+    }
+/* styles.css */
+/* Style for the dropdown container */
+
+.ddlcompanyidcss {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+}
+    .ddlcompanyidcss:hover {
+        border-color: #007bff;
+        background-color: whitesmoke;
+    }
+    /* Style for the dropdown select element */
+    .ddlcompanyidcss select {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .ddlcompanyidcss option {
+        background-color: #2e4ead;
+        color:aliceblue;
+        border-radius:40px;
+    }
+    /* Style for the dropdown arrow */
+    .ddlcompanyidcss::after {
+        content: '\25BC'; /* Unicode character for a down arrow */
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        background-color: #2e4ead;
+    }
+
+.gvcss {
+    width: 100%; /* Set the width of the GridView to 100% */
+    border-collapse: collapse; /* Collapse table borders */
+}
+
+    .gvcss th {
+        background-color: #2e4ead;
+        border-right-color: white;
+        color: white; /* Header text color */
+        height: 30px; /* Header height */
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .gvcss td {
+        background-color: white; /* Data row background color */
+        color: black; /* Data row text color */
+        text-align: center; /* Center-align data row text */
+        height: 30px; /* Data row height */
+        font-size: 14px;
+        font-weight:bold;
+    }

@@ -1,0 +1,72 @@
+﻿.invoiceboxcss {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+    .invoiceboxcss:hover {
+        border-color: #2e4ead;
+    }
+
+.textbox {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+    .textbox:hover {
+        border-color: #2e4ead;
+    }
+
+
+.btnSubmit {
+    background-color: #2e4ead;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+    .btnSubmit:hover {
+        background-color: #0056b3;
+    }
+
+.gvcompanycss {
+    width: 100%; /* Set the width of the GridView to 100% */
+    border-collapse: collapse; /* Collapse table borders */
+}
+
+    .gvcompanycss th {
+        background-color: #2e4ead;
+        border-right-color: white;
+        color: white; /* Header text color */
+        height: 30px; /* Header height */
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .gvcompanycss td {
+        background-color: white; /* Data row background color */
+        color: black; /* Data row text color */
+        text-align: center; /* Center-align data row text */
+        height: 30px; /* Data row height */
+        font-size: 14px;
+        font-weight: bold;
+    }
+

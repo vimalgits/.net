@@ -1,0 +1,31 @@
+﻿body {
+    font-family: Arial, sans-serif;
+}
+
+.bill {
+    width: 80%;
+    margin: 0 auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.bill-details {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    .bill-details th, .bill-details td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .bill-details th {
+        background-color: #f2f2f2;
+    }
+
+.bill-total {
+    margin-top: 20px;
+    float: right;
+}

@@ -1,0 +1,47 @@
+﻿.ddlcss {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    margin:10px 0px;
+}
+    .ddlcss:hover {
+        border-color: #007bff;
+        background-color: whitesmoke;
+    }
+.txtbox {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0px;
+}
+    .txtbox:hover {
+        border-color: #007bff;
+    }
+.btnSubmit {
+    background-color: #2e4ead;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+    /* Style for a button on hover */
+    .btnSubmit:hover {
+        background-color: #0056b3;
+    }

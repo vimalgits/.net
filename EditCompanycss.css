@@ -1,0 +1,64 @@
+﻿.gvcompanycss {
+    width: 100%; /* Set the width of the GridView to 100% */
+    border-collapse: collapse; /* Collapse table borders */
+}
+
+    .gvcompanycss th {
+        background-color: #2e4ead;
+        border-right-color: white;
+        color: white; /* Header text color */
+        height: 30px; /* Header height */
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .gvcompanycss td {
+        background-color: white; /* Data row background color */
+        color: black; /* Data row text color */
+        text-align: center; /* Center-align data row text */
+        height: 30px; /* Data row height */
+        font-size: 12px;
+    }
+
+.ddlcss {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+    .ddlcss:hover {
+        border-color: #007bff;
+        background-color: whitesmoke;
+    }
+
+.custom-textbox {
+    margin: 5px 5px;
+    width: 150px;
+    height: 36px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+    .custom-textbox:hover {
+        border-color: #007bff;
+    }
+
+#datediv {
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    height: 45px;
+    width: 63%;
+    display: inline-flex;
+}

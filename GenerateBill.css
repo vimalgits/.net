@@ -1,0 +1,116 @@
+﻿.custom-textbox {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius:15px;
+    padding: 5px;
+    font-size: 14px;
+    text-align:center;
+    
+}
+    .custom-textbox:hover {
+        border-color: #007bff;
+    }
+.companynmcss {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+    .companynmcss:hover {
+        border-color: #007bff;
+    }
+.productcss {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+    .productcss:hover {
+        border-color: #007bff;
+    }
+    .customernmcss {
+        width: 200px;
+        height: 40px;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        padding: 5px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .customernmcss:hover {
+        border-color: #007bff;
+    }
+
+    .custom-textbox:hover {
+        border-color: #007bff;
+    }
+
+
+
+.ddlcss {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+}
+
+    .ddlcss:hover {
+        border-color: #007bff;
+    }
+    /* Style for the dropdown select element */
+    .ddlcss select {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        background-color: #2e4ead;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    /* Style for the dropdown arrow */
+    .ddlcss::after {
+        content: '\25BC'; /* Unicode character for a down arrow */
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+    }
+.btn {
+    background-color: #2e4ead;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+    /* Style for a button on hover */
+    .btn:hover {
+        background-color: #0056b3;
+    }
+#main div {
+    float: left;
+   
+    width: calc(50% - 1.5em);
+    margin-left: 1.5em;
+}
